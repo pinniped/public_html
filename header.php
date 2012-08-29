@@ -9,8 +9,6 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
     <meta name="description" content="Adventure time!" />
      <meta name="keywords" content="awesome" />  
-  <!--<link rel="shortcut icon" href="/favicon.ico">-->
-    <!--<link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
     <meta name="author" content="tmzhu">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
     <script src="js/cycle.min.js"></script>
