@@ -16,8 +16,9 @@ $(document).ready(function(){
 	});
 	*/
 	$('area').hover(function(){ // hoverin: update info pane
-		var name = $(this).data("name");
-		var about = $(this).data("about");	
+		var prov = $(this).attr("rel");
+		var name = $("div[id='" + prov + "']").data("name");
+		var about = $("div[id='" + prov + "']").data("about");
 		$('span.name').text(name);
 		$('span.about').text(about);
 	},function(){ //hoverout:
