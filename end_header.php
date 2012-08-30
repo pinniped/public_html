@@ -2,7 +2,7 @@
 <body>
 <div id='wrap'>
 <div id='header'>
-<a class='banner' href='index' title="The Hannah Group">The Hannah Group</a>
+<a class='banner' href='index' title="The Hannah Group">TM IS AWESOME</a>
 </div>
 <ul id='nav'>
 <li>

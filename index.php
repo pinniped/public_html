@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <?php // anything included here is put into the head ?>
-<title>Index</title>
+<title>Canada</title>
 
 <?php include('end_header.php') ?>
 <div id='wrap'>
@@ -24,16 +24,17 @@
 		<img name="canada" class='map' src="img/canada.png" width="626" height="606" id="canada" usemap="#m_canada" />
 		<div class='coords'>
 			<map name="m_canada" id="m_canada">
+				<div id="test" data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"ff0000","fillOpacity":0.6}'></div>
 				<div id="ON" data-name="Ontario" data-about="Biggest and most baddass province in the Country. Main source of income depends on awesomeness levels over 9000."></div>
 				<div id="AB" data-name="Alberta" data-about="Oil sand pits. Formally largest mall in Canada (Edmonton Mall)."></div>
 				<div id="BC" data-name="British Columbia" data-about="Lots of trees. Epic beaches and ski hills. A bit crowded in certain places though. Great ping if you want to game with asian pros."></div>
 				<div id="MB" data-name="Manitoba" data-about="Killer mosquitoes and unreasonably drastic weather for a province so close to the middle of the country."></div>
 				<div id="NB" data-name="New Brunswick" data-about="Bay of Fundy I think. See some interesting rocks and killer whales. Not much to do here."></div>
-				<div id="NL" data-name="Newfoundland and Labradour" data-about="Hardcore fishers reside here. Another Irish proxy. These guys are actually half an hour earlier than EST (or was that only Labradour).""></div>
+				<div id="NL" data-name="Newfoundland and Labradour" data-about="Hardcore fishers reside here. Another Irish proxy. These guys are actually half an hour earlier than EST (or was that only Labradour)."></div>
 				<div id="NT" data-name="Northwest Territories" data-about="Come up here to hunt and trade fur."></div>
 				<div id="NS" data-name="Nova Scotia" data-about="This place is actually run by the Irish as a proxy. It is also home to the largest man-made explosion prior to the atomic bomb."></div>
 				<div id="NU" data-name="Nunavut" data-about="Eskimos and igloos! Polar bears futher up. Pick up a blubbersickle if you like your liquids to remain liquids."></div>
-				<div id="PE" data-name="Prince Edward Island" data-about="This is where tater farmers live. The water's too cold for swimming so you pretty much just chill on the Confederation Bridge."></div>
+				<div id="PE" data-name="Prince Edward Island" data-about="This is where tater farmers live. The water&apos;s too cold for swimming so you pretty much just chill on the Confederation Bridge."></div>
 				<div id="QC" data-name="Quebec" data-about="French proxy. Canadian shield. Very hilly and has epic ski hills."></div>
 				<div id="SK" data-name="Saskatchewan" data-about="Regina."></div>
 				<div id="YT" data-name="Yukon" data-about="Yvon lives here. Lots of gold but I think most of it is mined."></div>
@@ -83,5 +84,4 @@
 <script src="js/jquery.maphilight.min.js"></script>
 <script src="js/map.js"></script>
 
-	</div>
-	<?php include('footer.php') ?>
+<?php include('footer.php') ?>
